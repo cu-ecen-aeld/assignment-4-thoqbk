@@ -1,4 +1,2 @@
-current=$(pwd)
-cd buildroot
-make distclean
-cd "$current"
+source shared.sh
+make -C buildroot distclean
